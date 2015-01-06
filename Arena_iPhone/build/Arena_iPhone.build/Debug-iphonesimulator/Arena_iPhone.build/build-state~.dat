@@ -1,0 +1,1832 @@
+TArena_iPhone
+v7
+r0
+t307737104.933864
+cCheck dependencies
+cProcessInfoPlistFile /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Info.plist Arena_iPhone-Info.plist
+cCompileXIB /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/MainWindow.xib
+cCompileXIB /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Arena_iPhoneViewController.xib
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/LeftPad.png LeftPad.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Arena_logo.png Arena_logo.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/RightPad.png RightPad.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Down2.png Down2.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Down1.png Down1.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Left1.png Left1.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Left2.png Left2.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Right1.png Right1.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Right2.png Right2.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Up1.png Up1.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Up2.png Up2.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/EnemyDown1.png EnemyDown1.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/EnemyDown2.png EnemyDown2.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/EnemyLeft1.png EnemyLeft1.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/EnemyLeft2.png EnemyLeft2.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/EnemyRight1.png EnemyRight1.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/EnemyRight2.png EnemyRight2.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/EnemyUp1.png EnemyUp1.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/EnemyUp2.png EnemyUp2.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Attack1.png Attack1.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Attack2.png Attack2.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Attack3.png Attack3.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Attack4.png Attack4.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Attack5.png Attack5.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Attack6.png Attack6.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Attack7.png Attack7.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/HealthEmpty.png HealthEmpty.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/HealthFull.png HealthFull.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Potion.png Potion.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/ItemList.txt ItemList.txt
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/ItemFileMeta.txt ItemFileMeta.txt
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Blocker.png Blocker.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanDown2.png ScotsmanDown2.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanDown1.png ScotsmanDown1.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanLeft1.png ScotsmanLeft1.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanLeft2.png ScotsmanLeft2.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanRight1.png ScotsmanRight1.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanRight2.png ScotsmanRight2.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanUp1.png ScotsmanUp1.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanUp2.png ScotsmanUp2.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/AdGladiatium400w.png AdGladiatium400w.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Logo100w.png Logo100w.png
+cCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Shield.png Shield.png
+cProcessPCH /var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-dqhuydidawyagxaochmrsduiuuaj/Arena_iPhone_Prefix.pch.gch Arena_iPhone_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/main.o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Arena_iPhoneAppDelegate.o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Arena_iPhoneViewController.o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/TouchImage.o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/TouchImage.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/PlayerSprite.o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/PlayerSprite.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/TurnAndAttack.o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/TurnAndAttack.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/EnemySprite.o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/ItemActivator.o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ItemActivator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/ItemView.o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ItemView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/ArenaAlert.o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ArenaAlert.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/ItemData.o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ItemData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Obstacle.o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Obstacle.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Level.o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Level.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Arena_iPhone normal i386
+cGenerateDSYMFile /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app.dSYM /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Arena_iPhone
+cTouch /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004C6A0DEF00000000000000EE
+t1282018799
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C6DBBCF0000000000000132
+t1282259919
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Users/ianjohnstone/Arena_iPhone/../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources/Arena_logo.png
+c000000004C6A12DD0000000000000B7C
+t1282020061
+s2940
+
+N/Users/ianjohnstone/Arena_iPhone/../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources/Character/Down1.png
+c000000004C6A12DC0000000000000517
+t1282020060
+s1303
+
+N/Users/ianjohnstone/Arena_iPhone/../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources/Character/Down2.png
+c000000004C6A12DC0000000000000516
+t1282020060
+s1302
+
+N/Users/ianjohnstone/Arena_iPhone/../Development/LeftPad.png
+c000000004C6A19880000000000000458
+t1282021768
+s1112
+
+N/Users/ianjohnstone/Arena_iPhone/../Development/RightPad.png
+c000000004C6A19AF0000000000000442
+t1282021807
+s1090
+
+N/Users/ianjohnstone/Arena_iPhone/Arena_iPhoneViewController.xib
+c000000004C6B3C990000000000004E57
+t1282096281
+s20055
+
+N/Users/ianjohnstone/Arena_iPhone/Arena_iPhone_Prefix.pch
+c000000004C6A118300000000000000C1
+t1282019715
+s193
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/ianjohnstone/Arena_iPhone/Classes/Arena_iPhoneAppDelegate.h
+c000000004C6A154D00000000000001FF
+t1282020685
+s511
+i<UIKit/UIKit.h>
+
+N/Users/ianjohnstone/Arena_iPhone/Classes/Arena_iPhoneAppDelegate.m
+c000000004C6A11830000000000000285
+t1282019715
+s645
+i"Arena_iPhoneAppDelegate.h"
+i"Arena_iPhoneViewController.h"
+
+N/Users/ianjohnstone/Arena_iPhone/Classes/Arena_iPhoneViewController.h
+c000000004C6B35560000000000000232
+t1282094422
+s562
+i<UIKit/UIKit.h>
+i"TouchImage.h"
+
+N/Users/ianjohnstone/Arena_iPhone/Classes/Arena_iPhoneViewController.m
+c000000004C6B63730000000000000EF7
+t1282106227
+s3831
+i"Arena_iPhoneViewController.h"
+i"TouchImage.h"
+
+N/Users/ianjohnstone/Arena_iPhone/Classes/TouchImage.h
+c000000004C6B62C50000000000000243
+t1282106053
+s579
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/ianjohnstone/Arena_iPhone/Classes/TouchImage.m
+c000000004C6B648F000000000000106E
+t1282106511
+s4206
+i"TouchImage.h"
+
+N/Users/ianjohnstone/Arena_iPhone/MainWindow.xib
+c000000004C6B13E20000000000004CB0
+t1282085858
+s19632
+
+N/Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Arena_iPhone.LinkFileList
+c000000004C6B31360000000000000227
+t1282093366
+s551
+
+N/Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Arena_iPhoneAppDelegate.o
+t1282106155
+s38680
+
+N/Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Arena_iPhoneViewController.o
+t1282106228
+s41196
+
+N/Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/TouchImage.o
+t1282106473
+s18532
+
+N/Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/main.o
+t1282020384
+s5944
+
+N/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app
+t1282106473
+s408
+
+N/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app.dSYM
+t1282106473
+s102
+
+N/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Arena_iPhone
+t1282106473
+s31200
+
+N/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Arena_iPhoneViewController.nib
+t1282096285
+s1844
+
+N/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Arena_logo.png
+t1282020382
+s2940
+
+N/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Down1.png
+t1282021394
+s1303
+
+N/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Down2.png
+t1282088562
+s1302
+
+N/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Info.plist
+t1282020382
+s584
+
+N/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/LeftPad.png
+t1282021955
+s1112
+
+N/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/MainWindow.nib
+t1282085873
+s1505
+
+N/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/PkgInfo
+t1282020382
+s8
+
+N/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/RightPad.png
+t1282021955
+s1090
+
+N/Users/ianjohnstone/Arena_iPhone/main.m
+c000000004C6A11830000000000000170
+t1282019715
+s368
+i<UIKit/UIKit.h>
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources/Arena_logo.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources/Character/Down1.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources/Character/Down2.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/../Development/LeftPad.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/../Development/RightPad.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/AdGladiatium400w.png
+c000000004CA5346400000000000091A7
+t1285895268
+s37287
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Arena_iPhoneViewController.xib
+c000000004CA539A10000000000006566
+t1285896609
+s25958
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Arena_iPhone_Prefix.pch
+c000000004C6A118300000000000000C1
+t1282019715
+s193
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Arena_logo.png
+c000000004C6A12DD0000000000000B7C
+t1282020061
+s2940
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Attack1.png
+c000000004C6A12DC00000000000004F1
+t1282020060
+s1265
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Attack2.png
+c000000004C6A12DC0000000000000506
+t1282020060
+s1286
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Attack3.png
+c000000004C6A12DC0000000000000507
+t1282020060
+s1287
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Attack4.png
+c000000004C6A12DC0000000000000506
+t1282020060
+s1286
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Attack5.png
+c000000004C6A12DC00000000000004FF
+t1282020060
+s1279
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Attack6.png
+c000000004C6A12DC00000000000004F7
+t1282020060
+s1271
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Attack7.png
+c000000004C6A12DC00000000000004F0
+t1282020060
+s1264
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Blocker.png
+c000000004C6A12DC00000000000003F7
+t1282020060
+s1015
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ArenaAlert.h
+c000000004C859C470000000000000158
+t1283824711
+s344
+i<Foundation/Foundation.h>
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ArenaAlert.m
+c000000004C8C2ECF0000000000000673
+t1284255439
+s1651
+i"ArenaAlert.h"
+i"Arena_iPhoneViewController.h"
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneAppDelegate.h
+c000000004C6A154D00000000000001FF
+t1282020685
+s511
+i<UIKit/UIKit.h>
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneAppDelegate.m
+c000000004C6A11830000000000000285
+t1282019715
+s645
+i"Arena_iPhoneAppDelegate.h"
+i"Arena_iPhoneViewController.h"
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.h
+c000000004CA77547000000000000073D
+t1286042951
+s1853
+i<UIKit/UIKit.h>
+i"TouchImage.h"
+i"PlayerSprite.h"
+i"TurnAndAttack.h"
+i"EnemySprite.h"
+i"ItemActivator.h"
+i"ItemView.h"
+i"ArenaAlert.h"
+i"Obstacle.h"
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m
+c000000004CA779F80000000000001F2E
+t1286044152
+s7982
+i"Arena_iPhoneViewController.h"
+i"TouchImage.h"
+i"PlayerSprite.h"
+i"TurnAndAttack.h"
+i"EnemySprite.h"
+i"ItemActivator.h"
+i"ArenaAlert.h"
+i"ItemData.h"
+i"Obstacle.h"
+i"Level.h"
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.h
+c000000004CA14243000000000000035D
+t1285636675
+s861
+i<Foundation/Foundation.h>
+i"PlayerSprite.h"
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m
+c000000004CA4074000000000000021DC
+t1285818176
+s8668
+i"EnemySprite.h"
+i"PlayerSprite.h"
+i"Obstacle.h"
+i"Arena_iPhoneViewController.h"
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ItemActivator.h
+c000000004CA14095000000000000017D
+t1285636245
+s381
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"PlayerSprite.h"
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ItemActivator.m
+c000000004CA778AD0000000000000283
+t1286043821
+s643
+i"ItemActivator.h"
+i"Arena_iPhoneViewController.h"
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ItemData.h
+c000000004CA1409500000000000002E8
+t1285636245
+s744
+i<Foundation/Foundation.h>
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ItemData.m
+c000000004CA140950000000000000E4E
+t1285636245
+s3662
+i"ItemData.h"
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ItemView.h
+c000000004C7EDED80000000000000116
+t1283383000
+s278
+i<Foundation/Foundation.h>
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ItemView.m
+c000000004C7EDED800000000000001B7
+t1283383000
+s439
+i"ItemView.h"
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Level.h
+c000000004CA3FB7B0000000000000216
+t1285815163
+s534
+i<Foundation/Foundation.h>
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Level.m
+c000000004CA403B3000000000000047A
+t1285817267
+s1146
+i"Level.h"
+i"EnemySprite.h"
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Obstacle.h
+c000000004C8C1FB000000000000000E2
+t1284251568
+s226
+i<Foundation/Foundation.h>
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Obstacle.m
+c000000004C8C1F7B00000000000000C7
+t1284251515
+s199
+i"Obstacle.h"
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/PlayerSprite.h
+c000000004CA14095000000000000028C
+t1285636245
+s652
+i<Foundation/Foundation.h>
+i"ItemData.h"
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/PlayerSprite.m
+c000000004CA7793A00000000000028C2
+t1286043962
+s10434
+i"PlayerSprite.h"
+i"EnemySprite.h"
+i"Arena_iPhoneViewController.h"
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/TouchImage.h
+c000000004C726510000000000000026F
+t1282565392
+s623
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/TouchImage.m
+c000000004CA775C4000000000000151F
+t1286043076
+s5407
+i"TouchImage.h"
+i"EnemySprite.h"
+i"Arena_iPhoneViewController.h"
+i"ItemView.h"
+i"Obstacle.h"
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/TurnAndAttack.h
+c000000004C71D3CF0000000000000271
+t1282528207
+s625
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"PlayerSprite.h"
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/TurnAndAttack.m
+c000000004C71D3CF0000000000000C5C
+t1282528207
+s3164
+i"TurnAndAttack.h"
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Down1.png
+c000000004C6A12DC0000000000000517
+t1282020060
+s1303
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Down2.png
+c000000004C6A12DC0000000000000516
+t1282020060
+s1302
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/EnemyDown1.png
+c000000004C6A12DC0000000000000517
+t1282020060
+s1303
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/EnemyDown2.png
+c000000004C6A12DC0000000000000512
+t1282020060
+s1298
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/EnemyLeft1.png
+c000000004C6A12DC000000000000050C
+t1282020060
+s1292
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/EnemyLeft2.png
+c000000004C6A12DC0000000000000509
+t1282020060
+s1289
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/EnemyRight1.png
+c000000004C6A12DC000000000000050C
+t1282020060
+s1292
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/EnemyRight2.png
+c000000004C6A12DC000000000000050D
+t1282020060
+s1293
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/EnemyUp1.png
+c000000004C6A12DC0000000000000500
+t1282020060
+s1280
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/EnemyUp2.png
+c000000004C6A12DC0000000000000501
+t1282020060
+s1281
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/HealthEmpty.png
+c000000004C6A12DC0000000000000502
+t1282020060
+s1282
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/HealthFull.png
+c000000004C6A12DC0000000000000502
+t1282020060
+s1282
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ItemFileMeta.txt
+c000000004C840A4600000000000000B8
+t1283721798
+s184
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ItemList.txt
+c000000004CA7784B0000000000000070
+t1286043723
+s112
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Left1.png
+c000000004C6A12DC000000000000050C
+t1282020060
+s1292
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Left2.png
+c000000004C6A12DC000000000000050B
+t1282020060
+s1291
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/LeftPad.png
+c000000004C6A19880000000000000458
+t1282021768
+s1112
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Logo100w.png
+c000000004CA536F80000000000000BE9
+t1285895928
+s3049
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/MainWindow.xib
+c000000004C6B13E20000000000004CB0
+t1282085858
+s19632
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Potion.png
+c000000004C7DA7620000000000000520
+t1283303266
+s1312
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Right1.png
+c000000004C6A12DC0000000000000508
+t1282020060
+s1288
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Right2.png
+c000000004C6A12DC000000000000050C
+t1282020060
+s1292
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/RightPad.png
+c000000004C6A19AF0000000000000442
+t1282021807
+s1090
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ScotsmanDown1.png
+c000000004C8D680F00000000000001EB
+t1284335631
+s491
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ScotsmanDown2.png
+c000000004C8D67E2000000000000020B
+t1284335586
+s523
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ScotsmanLeft1.png
+c000000004C8D6CF30000000000000240
+t1284336883
+s576
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ScotsmanLeft2.png
+c000000004C8D6E2B0000000000000213
+t1284337195
+s531
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ScotsmanRight1.png
+c000000004C8D70E800000000000001DE
+t1284337896
+s478
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ScotsmanRight2.png
+c000000004C8D70F600000000000001F7
+t1284337910
+s503
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ScotsmanUp1.png
+c000000004C8D721400000000000001F1
+t1284338196
+s497
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ScotsmanUp2.png
+c000000004C8D71FF0000000000000211
+t1284338175
+s529
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Shield.png
+c000000004CA76BF000000000000000C1
+t1286040560
+s193
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Up1.png
+c000000004C6A12DC0000000000000502
+t1282020060
+s1282
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Up2.png
+c000000004C6A12DC0000000000000504
+t1282020060
+s1284
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/ArenaAlert.o
+t1286044304
+s47056
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Arena_iPhone.LinkFileList
+c000000004CA77A8C000000000000081B
+t1286044300
+s2075
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Arena_iPhoneAppDelegate.o
+t1286044303
+s48764
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Arena_iPhoneViewController.o
+t1286044303
+s73060
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/EnemySprite.o
+t1286044304
+s65580
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/ItemActivator.o
+t1286044304
+s35292
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/ItemData.o
+t1286044304
+s18888
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/ItemView.o
+t1286044304
+s34336
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Level.o
+t1286044304
+s39056
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Obstacle.o
+t1286044304
+s5128
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/PlayerSprite.o
+t1286044303
+s65496
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/TouchImage.o
+t1286044303
+s57132
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/TurnAndAttack.o
+t1286044303
+s44664
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/main.o
+t1286044303
+s6344
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app
+t1286044304
+s1700
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app.dSYM
+t1286044304
+s102
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/AdGladiatium400w.png
+t1286044302
+s37287
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Arena_iPhone
+t1286044304
+s94864
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Arena_iPhoneViewController.nib
+t1286044301
+s1266
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Arena_logo.png
+t1286044301
+s2940
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Attack1.png
+t1286044302
+s1265
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Attack2.png
+t1286044302
+s1286
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Attack3.png
+t1286044302
+s1287
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Attack4.png
+t1286044302
+s1286
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Attack5.png
+t1286044302
+s1279
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Attack6.png
+t1286044302
+s1271
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Attack7.png
+t1286044301
+s1264
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Blocker.png
+t1286044302
+s1015
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Down1.png
+t1286044301
+s1303
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Down2.png
+t1286044301
+s1302
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/EnemyDown1.png
+t1286044301
+s1303
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/EnemyDown2.png
+t1286044301
+s1298
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/EnemyLeft1.png
+t1286044301
+s1292
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/EnemyLeft2.png
+t1286044301
+s1289
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/EnemyRight1.png
+t1286044301
+s1292
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/EnemyRight2.png
+t1286044301
+s1293
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/EnemyUp1.png
+t1286044301
+s1280
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/EnemyUp2.png
+t1286044301
+s1281
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/HealthEmpty.png
+t1286044302
+s1282
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/HealthFull.png
+t1286044302
+s1282
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Info.plist
+t1286044300
+s587
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/ItemFileMeta.txt
+t1286044302
+s184
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/ItemList.txt
+t1286044302
+s112
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Left1.png
+t1286044301
+s1292
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Left2.png
+t1286044301
+s1291
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/LeftPad.png
+t1286044301
+s1112
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Logo100w.png
+t1286044302
+s3049
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/MainWindow.nib
+t1286044301
+s1109
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/PkgInfo
+t1286044300
+s8
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Potion.png
+t1286044302
+s1312
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Right1.png
+t1286044301
+s1288
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Right2.png
+t1286044301
+s1292
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/RightPad.png
+t1286044301
+s1090
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanDown1.png
+t1286044302
+s491
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanDown2.png
+t1286044302
+s523
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanLeft1.png
+t1286044302
+s576
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanLeft2.png
+t1286044302
+s531
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanRight1.png
+t1286044302
+s478
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanRight2.png
+t1286044302
+s503
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanUp1.png
+t1286044302
+s497
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanUp2.png
+t1286044302
+s529
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Shield.png
+t1286044302
+s193
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Up1.png
+t1286044301
+s1282
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Up2.png
+t1286044301
+s1284
+
+N/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/main.m
+c000000004C6A11830000000000000170
+t1282019715
+s368
+i<UIKit/UIKit.h>
+
+N/var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-avcpwrjfcmoqjifdlzguufistfhf/Arena_iPhone_Prefix.pch.gch
+t1282020384
+s13034960
+
+N/var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-dqhuydidawyagxaochmrsduiuuaj/Arena_iPhone_Prefix.pch.gch
+t1286044303
+s15232016
+
+N/var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-dusydsvzynksipdmsckgpchrihpc/Arena_iPhone_Prefix.pch.gch
+t1282107061
+s13034960
+
+NArena_iPhone-Info.plist
+c000000004C6DB12D000000000000035F
+t1282257197
+s863
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies307737100#307737100#0(0"0(0#1#0"8617865088#0"0#
+
+CCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/ArenaAlert.o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ArenaAlert.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s307737104.030257
+e307737104.164013
+r1
+xCompileC
+xbuild/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/ArenaAlert.o
+x/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ArenaAlert.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ArenaAlert.m307737104#307737104#0(0"0(0#0#79"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ArenaAlert.m8617994432#2241"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-generated-files.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-own-target-headers.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-all-target-headers.hmap -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-project-headers.hmap -F/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/include -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources/i386 -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources -include /var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-dqhuydidawyagxaochmrsduiuuaj/Arena_iPhone_Prefix.pch -c /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ArenaAlert.m -o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/ArenaAlert.o0#
+
+CCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Arena_iPhoneAppDelegate.o /Users/ianjohnstone/Arena_iPhone/Classes/Arena_iPhoneAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303798955.328537
+e303798955.448194
+r1
+xCompileC
+xbuild/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Arena_iPhoneAppDelegate.o
+x/Users/ianjohnstone/Arena_iPhone/Classes/Arena_iPhoneAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/ianjohnstone/Arena_iPhone/Classes/Arena_iPhoneAppDelegate.m303798955#303798955#0(0"0(0#0#66"/Users/ianjohnstone/Arena_iPhone/Classes/Arena_iPhoneAppDelegate.m4300885448#1939"    cd /Users/ianjohnstone/Arena_iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-generated-files.hmap -I/Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-own-target-headers.hmap -I/Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-all-target-headers.hmap -iquote /Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-project-headers.hmap -F/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator -I/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/include -I/Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources/i386 -I/Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources -include /var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-avcpwrjfcmoqjifdlzguufistfhf/Arena_iPhone_Prefix.pch -c /Users/ianjohnstone/Arena_iPhone/Classes/Arena_iPhoneAppDelegate.m -o /Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Arena_iPhoneAppDelegate.o0#
+
+CCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Arena_iPhoneAppDelegate.o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s307737103.420942
+e307737103.535166
+r1
+xCompileC
+xbuild/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Arena_iPhoneAppDelegate.o
+x/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneAppDelegate.m307737103#307737103#0(0"0(0#0#92"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneAppDelegate.m8618797056#2267"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-generated-files.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-own-target-headers.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-all-target-headers.hmap -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-project-headers.hmap -F/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/include -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources/i386 -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources -include /var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-dqhuydidawyagxaochmrsduiuuaj/Arena_iPhone_Prefix.pch -c /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneAppDelegate.m -o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Arena_iPhoneAppDelegate.o0#
+
+CCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Arena_iPhoneViewController.o /Users/ianjohnstone/Arena_iPhone/Classes/Arena_iPhoneViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303799027.764678
+e303799028.091170
+r1
+xCompileC
+xbuild/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Arena_iPhoneViewController.o
+x/Users/ianjohnstone/Arena_iPhone/Classes/Arena_iPhoneViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/ianjohnstone/Arena_iPhone/Classes/Arena_iPhoneViewController.m303799027#303799028#0(0"0(0#0#69"/Users/ianjohnstone/Arena_iPhone/Classes/Arena_iPhoneViewController.m4300885448#1945"    cd /Users/ianjohnstone/Arena_iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-generated-files.hmap -I/Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-own-target-headers.hmap -I/Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-all-target-headers.hmap -iquote /Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-project-headers.hmap -F/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator -I/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/include -I/Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources/i386 -I/Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources -include /var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-avcpwrjfcmoqjifdlzguufistfhf/Arena_iPhone_Prefix.pch -c /Users/ianjohnstone/Arena_iPhone/Classes/Arena_iPhoneViewController.m -o /Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Arena_iPhoneViewController.o0#
+
+CCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Arena_iPhoneViewController.o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s307737103.500735
+e307737103.701288
+r1
+xCompileC
+xbuild/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Arena_iPhoneViewController.o
+x/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m:298: warning: property 'player' requires method '-player' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m:298: warning: property 'player' requires the method 'setPlayer:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m:298: warning: property 'testEnemy' requires method '-testEnemy' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m:298: warning: property 'testEnemy' requires the method 'setTestEnemy:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m:298: warning: property 'activator' requires method '-activator' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m:298: warning: property 'activator' requires the method 'setActivator:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m:298: warning: property 'testItem' requires method '-testItem' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m:298: warning: property 'testItem' requires the method 'setTestItem:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m:298: warning: property 'testBlocker' requires method '-testBlocker' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m:298: warning: property 'testBlocker' requires the method 'setTestBlocker:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@103"Compile /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m307737103#307737103#0(2397"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m:298: warning: property 'player' requires method '-player' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m:298: warning: property 'player' requires the method 'setPlayer:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m:298: warning: property 'testEnemy' requires method '-testEnemy' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m:298: warning: property 'testEnemy' requires the method 'setTestEnemy:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m:298: warning: property 'activator' requires method '-activator' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m:298: warning: property 'activator' requires the method 'setActivator:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m:298: warning: property 'testItem' requires method '-testItem' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m:298: warning: property 'testItem' requires the method 'setTestItem:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m:298: warning: property 'testBlocker' requires method '-testBlocker' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m:298: warning: property 'testBlocker' requires the method 'setTestBlocker:' to be defined - use @synthesize, @dynamic or provide a method implementation10(22@120"Property 'player' requires method '-player' to be defined - use @synthesize, @dynamic or provide a method implementation307737103#0#231#0(6@95"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m307736952#298#0#298#0#0"0(22@127"Property 'player' requires the method 'setPlayer:' to be defined - use @synthesize, @dynamic or provide a method implementation307737103#231#238#0(6@95"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m307736952#298#0#298#0#0"0(22@126"Property 'testEnemy' requires method '-testEnemy' to be defined - use @synthesize, @dynamic or provide a method implementation307737103#469#237#0(6@95"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m307736952#298#0#298#0#0"0(22@133"Property 'testEnemy' requires the method 'setTestEnemy:' to be defined - use @synthesize, @dynamic or provide a method implementation307737103#706#244#0(6@95"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m307736952#298#0#298#0#0"0(22@126"Property 'activator' requires method '-activator' to be defined - use @synthesize, @dynamic or provide a method implementation307737103#950#237#0(6@95"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m307736952#298#0#298#0#0"0(22@133"Property 'activator' requires the method 'setActivator:' to be defined - use @synthesize, @dynamic or provide a method implementation307737103#1187#244#0(6@95"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m307736952#298#0#298#0#0"0(22@124"Property 'testItem' requires method '-testItem' to be defined - use @synthesize, @dynamic or provide a method implementation307737103#1431#235#0(6@95"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m307736952#298#0#298#0#0"0(22@131"Property 'testItem' requires the method 'setTestItem:' to be defined - use @synthesize, @dynamic or provide a method implementation307737103#1666#242#0(6@95"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m307736952#298#0#298#0#0"0(22@130"Property 'testBlocker' requires method '-testBlocker' to be defined - use @synthesize, @dynamic or provide a method implementation307737103#1908#241#0(6@95"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m307736952#298#0#298#0#0"0(22@137"Property 'testBlocker' requires the method 'setTestBlocker:' to be defined - use @synthesize, @dynamic or provide a method implementation307737103#2149#248#0(6@95"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m307736952#298#0#298#0#0"0(0#0#95"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m8615489056#2273"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-generated-files.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-own-target-headers.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-all-target-headers.hmap -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-project-headers.hmap -F/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/include -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources/i386 -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources -include /var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-dqhuydidawyagxaochmrsduiuuaj/Arena_iPhone_Prefix.pch -c /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Arena_iPhoneViewController.m -o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Arena_iPhoneViewController.o0#
+
+CCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/EnemySprite.o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s307737103.841514
+e307737104.030146
+r1
+xCompileC
+xbuild/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/EnemySprite.o
+x/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m: In function '-[EnemySprite detectCollision:]':
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m:238: warning: 'UIView' may not respond to '-handleDamage'
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m:238: warning: (Messages without a matching method signature
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m:238: warning: will be assumed to return 'id' and accept
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m:238: warning: '...' as arguments.)
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m: At top level:
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m:283: warning: incomplete implementation of class 'EnemySprite'
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m:283: warning: method definition for '-addEnemy:' not found
+lSLF07#2@88"Compile /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m307737103#307737104#0(1042"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m: In function '-[EnemySprite detectCollision:]':/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m:238: warning: 'UIView' may not respond to '-handleDamage'/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m:238: warning: (Messages without a matching method signature/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m:238: warning: will be assumed to return 'id' and accept/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m:238: warning: '...' as arguments.)/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m: At top level:/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m:283: warning: incomplete implementation of class 'EnemySprite'/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m:283: warning: method definition for '-addEnemy:' not found5(22@43"'UIView' may not respond to '-handleDamage'307737103#129#139#0(6@80"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m307510976#238#0#238#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)307737103#268#141#0(6@80"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m307510976#238#0#238#0#0"0(23@13"At top level:307737103#662#96#0(6@80"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m307510976#0#0#0#0#0"0(22@48"Incomplete implementation of class 'EnemySprite'307737103#758#144#0(6@80"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m307510976#283#0#283#0#38"incomplete implementation of class '*'0(22@44"Method definition for '-addEnemy:' not found307737103#902#140#0(6@80"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m307510976#283#0#283#0#35"method definition for '*' not found0(0#0#80"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m8603376288#2243"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-generated-files.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-own-target-headers.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-all-target-headers.hmap -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-project-headers.hmap -F/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/include -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources/i386 -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources -include /var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-dqhuydidawyagxaochmrsduiuuaj/Arena_iPhone_Prefix.pch -c /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/EnemySprite.m -o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/EnemySprite.o0#
+
+CCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/ItemActivator.o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ItemActivator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s307737103.908250
+e307737104.018458
+r1
+xCompileC
+xbuild/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/ItemActivator.o
+x/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ItemActivator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ItemActivator.m307737103#307737104#0(0"0(0#0#82"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ItemActivator.m8619137728#2247"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-generated-files.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-own-target-headers.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-all-target-headers.hmap -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-project-headers.hmap -F/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/include -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources/i386 -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources -include /var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-dqhuydidawyagxaochmrsduiuuaj/Arena_iPhone_Prefix.pch -c /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ItemActivator.m -o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/ItemActivator.o0#
+
+CCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/ItemData.o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ItemData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s307737104.118435
+e307737104.253732
+r1
+xCompileC
+xbuild/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/ItemData.o
+x/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ItemData.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ItemData.m307737104#307737104#0(0"0(0#0#77"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ItemData.m8617482048#2237"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-generated-files.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-own-target-headers.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-all-target-headers.hmap -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-project-headers.hmap -F/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/include -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources/i386 -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources -include /var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-dqhuydidawyagxaochmrsduiuuaj/Arena_iPhone_Prefix.pch -c /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ItemData.m -o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/ItemData.o0#
+
+CCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/ItemView.o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ItemView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s307737104.018571
+e307737104.118307
+r1
+xCompileC
+xbuild/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/ItemView.o
+x/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ItemView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ItemView.m307737104#307737104#0(0"0(0#0#77"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ItemView.m8603048576#2237"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-generated-files.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-own-target-headers.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-all-target-headers.hmap -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-project-headers.hmap -F/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/include -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources/i386 -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources -include /var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-dqhuydidawyagxaochmrsduiuuaj/Arena_iPhone_Prefix.pch -c /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/ItemView.m -o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/ItemView.o0#
+
+CCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Level.o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Level.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s307737104.238298
+e307737104.328555
+r1
+xCompileC
+xbuild/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Level.o
+x/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Level.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Level.m: In function '+[Level makeLevel::]':
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Level.m:24: warning: 'Level' may not respond to '-addEnemy:'
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Level.m:24: warning: (Messages without a matching method signature
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Level.m:24: warning: will be assumed to return 'id' and accept
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Level.m:24: warning: '...' as arguments.)
+lSLF07#2@82"Compile /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Level.m307737104#307737104#0(613"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Level.m: In function '+[Level makeLevel::]':/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Level.m:24: warning: 'Level' may not respond to '-addEnemy:'/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Level.m:24: warning: (Messages without a matching method signature/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Level.m:24: warning: will be assumed to return 'id' and accept/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Level.m:24: warning: '...' as arguments.)2(22@39"'Level' may not respond to '-addEnemy:'307737104#112#128#0(6@74"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Level.m307510067#24#0#24#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)307737104#240#134#0(6@74"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Level.m307510067#24#0#24#0#0"0(0#0#74"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Level.m8619504768#2231"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-generated-files.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-own-target-headers.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-all-target-headers.hmap -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-project-headers.hmap -F/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/include -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources/i386 -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources -include /var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-dqhuydidawyagxaochmrsduiuuaj/Arena_iPhone_Prefix.pch -c /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Level.m -o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Level.o0#
+
+CCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Obstacle.o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Obstacle.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s307737104.164142
+e307737104.238178
+r1
+xCompileC
+xbuild/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Obstacle.o
+x/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Obstacle.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Obstacle.m307737104#307737104#0(0"0(0#0#77"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Obstacle.m8617320960#2237"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-generated-files.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-own-target-headers.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-all-target-headers.hmap -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-project-headers.hmap -F/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/include -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources/i386 -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources -include /var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-dqhuydidawyagxaochmrsduiuuaj/Arena_iPhone_Prefix.pch -c /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/Obstacle.m -o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Obstacle.o0#
+
+CCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/PlayerSprite.o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/PlayerSprite.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s307737103.701404
+e307737103.908126
+r1
+xCompileC
+xbuild/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/PlayerSprite.o
+x/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/PlayerSprite.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/PlayerSprite.m307737103#307737103#0(0"0(0#0#81"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/PlayerSprite.m8613859008#2245"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-generated-files.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-own-target-headers.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-all-target-headers.hmap -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-project-headers.hmap -F/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/include -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources/i386 -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources -include /var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-dqhuydidawyagxaochmrsduiuuaj/Arena_iPhone_Prefix.pch -c /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/PlayerSprite.m -o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/PlayerSprite.o0#
+
+CCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/TouchImage.o /Users/ianjohnstone/Arena_iPhone/Classes/TouchImage.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303799272.938874
+e303799273.105382
+r1
+xCompileC
+xbuild/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/TouchImage.o
+x/Users/ianjohnstone/Arena_iPhone/Classes/TouchImage.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/ianjohnstone/Arena_iPhone/Classes/TouchImage.m303799272#303799273#0(0"0(0#0#53"/Users/ianjohnstone/Arena_iPhone/Classes/TouchImage.m4300885448#1913"    cd /Users/ianjohnstone/Arena_iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-generated-files.hmap -I/Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-own-target-headers.hmap -I/Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-all-target-headers.hmap -iquote /Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-project-headers.hmap -F/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator -I/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/include -I/Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources/i386 -I/Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources -include /var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-avcpwrjfcmoqjifdlzguufistfhf/Arena_iPhone_Prefix.pch -c /Users/ianjohnstone/Arena_iPhone/Classes/TouchImage.m -o /Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/TouchImage.o0#
+
+CCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/TouchImage.o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/TouchImage.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s307737103.535286
+e307737103.706808
+r1
+xCompileC
+xbuild/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/TouchImage.o
+x/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/TouchImage.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/TouchImage.m307737103#307737103#0(0"0(0#0#79"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/TouchImage.m8619144448#2241"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-generated-files.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-own-target-headers.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-all-target-headers.hmap -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-project-headers.hmap -F/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/include -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources/i386 -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources -include /var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-dqhuydidawyagxaochmrsduiuuaj/Arena_iPhone_Prefix.pch -c /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/TouchImage.m -o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/TouchImage.o0#
+
+CCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/TurnAndAttack.o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/TurnAndAttack.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s307737103.706923
+e307737103.841384
+r1
+xCompileC
+xbuild/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/TurnAndAttack.o
+x/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/TurnAndAttack.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/TurnAndAttack.m307737103#307737103#0(0"0(0#0#82"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/TurnAndAttack.m8603748704#2247"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-generated-files.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-own-target-headers.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-all-target-headers.hmap -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-project-headers.hmap -F/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/include -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources/i386 -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources -include /var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-dqhuydidawyagxaochmrsduiuuaj/Arena_iPhone_Prefix.pch -c /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Classes/TurnAndAttack.m -o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/TurnAndAttack.o0#
+
+CCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/main.o /Users/ianjohnstone/Arena_iPhone/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303713184.309223
+e303713184.477548
+r1
+xCompileC
+xbuild/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/main.o
+x/Users/ianjohnstone/Arena_iPhone/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/ianjohnstone/Arena_iPhone/main.m303713184#303713184#0(0"0(0#0#39"/Users/ianjohnstone/Arena_iPhone/main.m4300885448#1893"    cd /Users/ianjohnstone/Arena_iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-generated-files.hmap -I/Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-own-target-headers.hmap -I/Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-all-target-headers.hmap -iquote /Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-project-headers.hmap -F/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator -I/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/include -I/Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources/i386 -I/Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources -include /var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-avcpwrjfcmoqjifdlzguufistfhf/Arena_iPhone_Prefix.pch -c /Users/ianjohnstone/Arena_iPhone/main.m -o /Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/main.o0#
+
+CCompileC build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/main.o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s307737103.419087
+e307737103.500604
+r1
+xCompileC
+xbuild/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/main.o
+x/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/main.m307737103#307737103#0(0"0(0#0#65"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/main.m8603988544#2221"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-generated-files.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-own-target-headers.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-all-target-headers.hmap -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-project-headers.hmap -F/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/include -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources/i386 -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources -include /var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-dqhuydidawyagxaochmrsduiuuaj/Arena_iPhone_Prefix.pch -c /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/main.m -o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/ianjohnstone/Arena_iPhone/Arena_iPhoneViewController.xib
+s303789085.401964
+e303789085.874946
+r1
+xCompileXIB
+x/Users/ianjohnstone/Arena_iPhone/Arena_iPhoneViewController.xib
+lSLF07#2@41"CompileXIB Arena_iPhoneViewController.xib303789085#303789085#0(0"0(0#0#63"/Users/ianjohnstone/Arena_iPhone/Arena_iPhoneViewController.xib4300885448#501"    cd /Users/ianjohnstone/Arena_iPhone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Arena_iPhoneViewController.nib /Users/ianjohnstone/Arena_iPhone/Arena_iPhoneViewController.xib0#
+
+CCompileXIB /Users/ianjohnstone/Arena_iPhone/MainWindow.xib
+s303778673.097687
+e303778673.460776
+r1
+xCompileXIB
+x/Users/ianjohnstone/Arena_iPhone/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib303778673#303778673#0(0"0(0#0#47"/Users/ianjohnstone/Arena_iPhone/MainWindow.xib4300885448#469"    cd /Users/ianjohnstone/Arena_iPhone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/MainWindow.nib /Users/ianjohnstone/Arena_iPhone/MainWindow.xib0#
+
+CCompileXIB /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Arena_iPhoneViewController.xib
+s307737100.883344
+e307737102.189291
+r1
+xCompileXIB
+x/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Arena_iPhoneViewController.xib
+lSLF07#2@41"CompileXIB Arena_iPhoneViewController.xib307737100#307737102#0(0"0(0#0#89"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Arena_iPhoneViewController.xib8599129536#667"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Arena_iPhoneViewController.nib /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Arena_iPhoneViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/MainWindow.xib
+s307737100.882302
+e307737101.904981
+r1
+xCompileXIB
+x/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib307737100#307737101#0(0"0(0#0#73"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/MainWindow.xib8604361056#635"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/MainWindow.nib /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/AdGladiatium400w.png AdGladiatium400w.png
+s307737102.049060
+e307737102.076029
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/AdGladiatium400w.png
+xAdGladiatium400w.png
+lSLF07#2@25"Copy AdGladiatium400w.png307737102#307737102#0(0"0(0#0#79"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/AdGladiatium400w.png8618818944#529"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/AdGladiatium400w.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Arena_logo.png ../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources/Arena_logo.png
+s303799860.362063
+e303799860.426789
+r0
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/Arena_logo.png
+x../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources/Arena_logo.png
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources: No such file or directory
+lSLF07#2@92"Copy ../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources/Arena_logo.png303799860#303799860#0(267"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources: No such file or directoryCommand /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 11(4@107"Command /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 1303799860#18446744073709551615#0#0(1@0"0(0#0#146"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources/Arena_logo.png7020660410511482880#596"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources/Arena_logo.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app1#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Arena_logo.png Arena_logo.png
+s307737101.905989
+e307737101.932288
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/Arena_logo.png
+xArena_logo.png
+lSLF07#2@19"Copy Arena_logo.png307737101#307737101#0(0"0(0#0#73"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Arena_logo.png8612943552#523"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Arena_logo.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Attack1.png Attack1.png
+s307737101.955873
+e307737102.017490
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/Attack1.png
+xAttack1.png
+lSLF07#2@16"Copy Attack1.png307737101#307737102#0(0"0(0#0#70"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Attack1.png8614628768#520"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Attack1.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Attack2.png Attack2.png
+s307737101.972522
+e307737102.017620
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/Attack2.png
+xAttack2.png
+lSLF07#2@16"Copy Attack2.png307737101#307737102#0(0"0(0#0#70"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Attack2.png8613455360#520"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Attack2.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Attack3.png Attack3.png
+s307737101.973672
+e307737102.017748
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/Attack3.png
+xAttack3.png
+lSLF07#2@16"Copy Attack3.png307737101#307737102#0(0"0(0#0#70"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Attack3.png8612935968#520"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Attack3.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Attack4.png Attack4.png
+s307737101.983956
+e307737102.017299
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/Attack4.png
+xAttack4.png
+lSLF07#2@16"Copy Attack4.png307737101#307737102#0(0"0(0#0#70"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Attack4.png8612727680#520"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Attack4.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Attack5.png Attack5.png
+s307737101.984804
+e307737102.046427
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/Attack5.png
+xAttack5.png
+lSLF07#2@16"Copy Attack5.png307737101#307737102#0(0"0(0#0#70"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Attack5.png8606947296#520"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Attack5.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Attack6.png Attack6.png
+s307737101.990420
+e307737102.046561
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/Attack6.png
+xAttack6.png
+lSLF07#2@16"Copy Attack6.png307737101#307737102#0(0"0(0#0#70"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Attack6.png8616010176#520"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Attack6.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Attack7.png Attack7.png
+s307737101.991286
+e307737102.003360
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/Attack7.png
+xAttack7.png
+lSLF07#2@16"Copy Attack7.png307737101#307737102#0(0"0(0#0#70"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Attack7.png8614854112#520"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Attack7.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Blocker.png Blocker.png
+s307737102.013764
+e307737102.046812
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/Blocker.png
+xBlocker.png
+lSLF07#2@16"Copy Blocker.png307737102#307737102#0(0"0(0#0#70"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Blocker.png8612693568#520"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Blocker.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Down1.png ../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources/Character/Down1.png
+s303799860.394974
+e303799860.422446
+r0
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/Down1.png
+x../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources/Character/Down1.png
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources/Character: No such file or directory
+lSLF07#2@97"Copy ../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources/Character/Down1.png303799860#303799860#0(277"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources/Character: No such file or directoryCommand /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 11(4@107"Command /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 1303799860#18446744073709551615#0#0(1@0"0(0#0#151"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources/Character/Down1.png4300885448#601"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources/Character/Down1.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app1#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Down1.png Down1.png
+s307737101.908089
+e307737101.932962
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/Down1.png
+xDown1.png
+lSLF07#2@14"Copy Down1.png307737101#307737101#0(0"0(0#0#68"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Down1.png8607277088#518"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Down1.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Down2.png ../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources/Character/Down2.png
+s303799860.397244
+e303799860.424416
+r0
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/Down2.png
+x../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources/Character/Down2.png
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources/Character: No such file or directory
+lSLF07#2@97"Copy ../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources/Character/Down2.png303799860#303799860#0(277"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources/Character: No such file or directoryCommand /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 11(4@107"Command /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 1303799860#18446744073709551615#0#0(1@0"0(0#0#151"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources/Character/Down2.png4300885448#601"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/../Development/Java/Projects/Arena/Arena/appClientModule/arena/resources/Character/Down2.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app1#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Down2.png Down2.png
+s307737101.907408
+e307737101.932823
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/Down2.png
+xDown2.png
+lSLF07#2@14"Copy Down2.png307737101#307737101#0(0"0(0#0#68"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Down2.png8612320128#518"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Down2.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/EnemyDown1.png EnemyDown1.png
+s307737101.942742
+e307737101.953494
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/EnemyDown1.png
+xEnemyDown1.png
+lSLF07#2@19"Copy EnemyDown1.png307737101#307737101#0(0"0(0#0#73"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/EnemyDown1.png8601543008#523"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/EnemyDown1.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/EnemyDown2.png EnemyDown2.png
+s307737101.944061
+e307737101.953620
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/EnemyDown2.png
+xEnemyDown2.png
+lSLF07#2@19"Copy EnemyDown2.png307737101#307737101#0(0"0(0#0#73"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/EnemyDown2.png8617705504#523"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/EnemyDown2.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/EnemyLeft1.png EnemyLeft1.png
+s307737101.950552
+e307737101.983428
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/EnemyLeft1.png
+xEnemyLeft1.png
+lSLF07#2@19"Copy EnemyLeft1.png307737101#307737101#0(0"0(0#0#73"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/EnemyLeft1.png8616122848#523"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/EnemyLeft1.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/EnemyLeft2.png EnemyLeft2.png
+s307737101.951485
+e307737101.983624
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/EnemyLeft2.png
+xEnemyLeft2.png
+lSLF07#2@19"Copy EnemyLeft2.png307737101#307737101#0(0"0(0#0#73"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/EnemyLeft2.png8614802880#523"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/EnemyLeft2.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/EnemyRight1.png EnemyRight1.png
+s307737101.952193
+e307737101.983866
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/EnemyRight1.png
+xEnemyRight1.png
+lSLF07#2@20"Copy EnemyRight1.png307737101#307737101#0(0"0(0#0#74"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/EnemyRight1.png8613352800#524"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/EnemyRight1.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/EnemyRight2.png EnemyRight2.png
+s307737101.953817
+e307737101.982988
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/EnemyRight2.png
+xEnemyRight2.png
+lSLF07#2@20"Copy EnemyRight2.png307737101#307737101#0(0"0(0#0#74"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/EnemyRight2.png8616108512#524"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/EnemyRight2.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/EnemyUp1.png EnemyUp1.png
+s307737101.954532
+e307737101.983143
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/EnemyUp1.png
+xEnemyUp1.png
+lSLF07#2@17"Copy EnemyUp1.png307737101#307737101#0(0"0(0#0#71"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/EnemyUp1.png8615715488#521"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/EnemyUp1.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/EnemyUp2.png EnemyUp2.png
+s307737101.955210
+e307737101.983283
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/EnemyUp2.png
+xEnemyUp2.png
+lSLF07#2@17"Copy EnemyUp2.png307737101#307737101#0(0"0(0#0#71"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/EnemyUp2.png8615424320#521"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/EnemyUp2.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/HealthEmpty.png HealthEmpty.png
+s307737101.992002
+e307737102.003511
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/HealthEmpty.png
+xHealthEmpty.png
+lSLF07#2@20"Copy HealthEmpty.png307737101#307737102#0(0"0(0#0#74"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/HealthEmpty.png8613405984#524"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/HealthEmpty.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/HealthFull.png HealthFull.png
+s307737101.992679
+e307737102.046939
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/HealthFull.png
+xHealthFull.png
+lSLF07#2@19"Copy HealthFull.png307737101#307737102#0(0"0(0#0#73"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/HealthFull.png8617968288#523"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/HealthFull.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/ItemFileMeta.txt ItemFileMeta.txt
+s307737102.009598
+e307737102.017878
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/ItemFileMeta.txt
+xItemFileMeta.txt
+lSLF07#2@21"Copy ItemFileMeta.txt307737102#307737102#0(0"0(0#0#75"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ItemFileMeta.txt8613676160#525"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ItemFileMeta.txt /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/ItemList.txt ItemList.txt
+s307737102.004453
+e307737102.013551
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/ItemList.txt
+xItemList.txt
+lSLF07#2@17"Copy ItemList.txt307737102#307737102#0(0"0(0#0#71"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ItemList.txt8615589856#521"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ItemList.txt /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Left1.png Left1.png
+s307737101.908765
+e307737101.953744
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/Left1.png
+xLeft1.png
+lSLF07#2@14"Copy Left1.png307737101#307737101#0(0"0(0#0#68"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Left1.png8604456288#518"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Left1.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Left2.png Left2.png
+s307737101.909442
+e307737101.933138
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/Left2.png
+xLeft2.png
+lSLF07#2@14"Copy Left2.png307737101#307737101#0(0"0(0#0#68"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Left2.png8603897920#518"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Left2.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/LeftPad.png ../Development/LeftPad.png
+s303799860.395781
+e303799860.421263
+r0
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/LeftPad.png
+x../Development/LeftPad.png
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/../Development: No such file or directory
+lSLF07#2@31"Copy ../Development/LeftPad.png303799860#303799860#0(209"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/../Development: No such file or directoryCommand /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 11(4@107"Command /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 1303799860#18446744073709551615#0#0(1@0"0(0#0#85"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/../Development/LeftPad.png4300885448#535"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/../Development/LeftPad.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app1#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/LeftPad.png LeftPad.png
+s307737101.905125
+e307737101.953105
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/LeftPad.png
+xLeftPad.png
+lSLF07#2@16"Copy LeftPad.png307737101#307737101#0(0"0(0#0#70"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/LeftPad.png8613247712#520"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/LeftPad.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Logo100w.png Logo100w.png
+s307737102.049768
+e307737102.074685
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/Logo100w.png
+xLogo100w.png
+lSLF07#2@17"Copy Logo100w.png307737102#307737102#0(0"0(0#0#71"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Logo100w.png8618795552#521"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Logo100w.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Potion.png Potion.png
+s307737102.003608
+e307737102.009507
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/Potion.png
+xPotion.png
+lSLF07#2@15"Copy Potion.png307737102#307737102#0(0"0(0#0#69"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Potion.png8616084800#519"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Potion.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Right1.png Right1.png
+s307737101.910132
+e307737101.933292
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/Right1.png
+xRight1.png
+lSLF07#2@15"Copy Right1.png307737101#307737101#0(0"0(0#0#69"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Right1.png8603300672#519"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Right1.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Right2.png Right2.png
+s307737101.910804
+e307737101.933434
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/Right2.png
+xRight2.png
+lSLF07#2@15"Copy Right2.png307737101#307737101#0(0"0(0#0#69"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Right2.png8603174208#519"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Right2.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/RightPad.png ../Development/RightPad.png
+s303799860.396574
+e303799860.423579
+r0
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/RightPad.png
+x../Development/RightPad.png
+o/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/../Development: No such file or directory
+lSLF07#2@32"Copy ../Development/RightPad.png303799860#303799860#0(209"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/../Development: No such file or directoryCommand /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 11(4@107"Command /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 1303799860#18446744073709551615#0#0(1@0"0(0#0#86"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/../Development/RightPad.png4300885448#536"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/../Development/RightPad.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app1#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/RightPad.png RightPad.png
+s307737101.906726
+e307737101.932449
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/RightPad.png
+xRightPad.png
+lSLF07#2@17"Copy RightPad.png307737101#307737101#0(0"0(0#0#71"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/RightPad.png8612497312#521"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/RightPad.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanDown1.png ScotsmanDown1.png
+s307737102.021267
+e307737102.046687
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanDown1.png
+xScotsmanDown1.png
+lSLF07#2@22"Copy ScotsmanDown1.png307737102#307737102#0(0"0(0#0#76"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ScotsmanDown1.png8617292448#526"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ScotsmanDown1.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanDown2.png ScotsmanDown2.png
+s307737102.019801
+e307737102.046285
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanDown2.png
+xScotsmanDown2.png
+lSLF07#2@22"Copy ScotsmanDown2.png307737102#307737102#0(0"0(0#0#76"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ScotsmanDown2.png8617850336#526"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ScotsmanDown2.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanLeft1.png ScotsmanLeft1.png
+s307737102.043807
+e307737102.051264
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanLeft1.png
+xScotsmanLeft1.png
+lSLF07#2@22"Copy ScotsmanLeft1.png307737102#307737102#0(0"0(0#0#76"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ScotsmanLeft1.png8619621248#526"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ScotsmanLeft1.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanLeft2.png ScotsmanLeft2.png
+s307737102.044703
+e307737102.074555
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanLeft2.png
+xScotsmanLeft2.png
+lSLF07#2@22"Copy ScotsmanLeft2.png307737102#307737102#0(0"0(0#0#76"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ScotsmanLeft2.png8619507968#526"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ScotsmanLeft2.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanRight1.png ScotsmanRight1.png
+s307737102.045479
+e307737102.074894
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanRight1.png
+xScotsmanRight1.png
+lSLF07#2@23"Copy ScotsmanRight1.png307737102#307737102#0(0"0(0#0#77"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ScotsmanRight1.png8619282624#527"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ScotsmanRight1.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanRight2.png ScotsmanRight2.png
+s307737102.047014
+e307737102.074128
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanRight2.png
+xScotsmanRight2.png
+lSLF07#2@23"Copy ScotsmanRight2.png307737102#307737102#0(0"0(0#0#77"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ScotsmanRight2.png8619166016#527"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ScotsmanRight2.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanUp1.png ScotsmanUp1.png
+s307737102.047717
+e307737102.074296
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanUp1.png
+xScotsmanUp1.png
+lSLF07#2@20"Copy ScotsmanUp1.png307737102#307737102#0(0"0(0#0#74"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ScotsmanUp1.png8619053504#524"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ScotsmanUp1.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanUp2.png ScotsmanUp2.png
+s307737102.048395
+e307737102.074427
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/ScotsmanUp2.png
+xScotsmanUp2.png
+lSLF07#2@20"Copy ScotsmanUp2.png307737102#307737102#0(0"0(0#0#74"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ScotsmanUp2.png8618905376#524"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/ScotsmanUp2.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Shield.png Shield.png
+s307737102.050446
+e307737102.075419
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/Shield.png
+xShield.png
+lSLF07#2@15"Copy Shield.png307737102#307737102#0(0"0(0#0#69"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Shield.png8618674016#519"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Shield.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Up1.png Up1.png
+s307737101.933528
+e307737101.953245
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/Up1.png
+xUp1.png
+lSLF07#2@12"Copy Up1.png307737101#307737101#0(0"0(0#0#66"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Up1.png8599354112#516"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Up1.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/Arena_iPhone.app/Up2.png Up2.png
+s307737101.937434
+e307737101.953370
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Arena_iPhone.app/Up2.png
+xUp2.png
+lSLF07#2@12"Copy Up2.png307737101#307737101#0(0"0(0#0#66"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Up2.png8617304608#516"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Up2.png /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CGenerateDSYMFile /Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app.dSYM /Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Arena_iPhone
+s303799273.133784
+e303799273.152277
+r1
+xGenerateDSYMFile
+x/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app.dSYM
+x/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Arena_iPhone
+lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/Arena_iPhone.app.dSYM build/Debug-iphonesimulator/Arena_iPhone.app/Arena_iPhone303799273#303799273#0(0"0(0#0#90"/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Arena_iPhone4300885448#380"    cd /Users/ianjohnstone/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Arena_iPhone -o /Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app.dSYM0#
+
+CGenerateDSYMFile /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app.dSYM /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Arena_iPhone
+s307737104.369355
+e307737104.926059
+r1
+xGenerateDSYMFile
+x/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app.dSYM
+x/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Arena_iPhone
+lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/Arena_iPhone.app.dSYM build/Debug-iphonesimulator/Arena_iPhone.app/Arena_iPhone307737104#307737104#0(0"0(0#0#116"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Arena_iPhone8613286208#458"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Arena_iPhone -o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app.dSYM0#
+
+CLd /Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Arena_iPhone normal i386
+s303799273.105496
+e303799273.133651
+r1
+xLd
+x/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Arena_iPhone
+xnormal
+xi386
+lSLF07#2@95"Link /Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Arena_iPhone303799273#303799273#0(0"0(0#0#0"4300885448#859"    cd /Users/ianjohnstone/Arena_iPhone    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator -F/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator -filelist /Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Arena_iPhone.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Arena_iPhone0#
+
+CLd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Arena_iPhone normal i386
+s307737104.328670
+e307737104.369236
+r1
+xLd
+x/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Arena_iPhone
+xnormal
+xi386
+lSLF07#2@121"Link /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Arena_iPhone307737104#307737104#0(0"0(0#0#0"8617838144#1025"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator -F/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator -filelist /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Objects-normal/i386/Arena_iPhone.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Arena_iPhone0#
+
+CProcessInfoPlistFile /Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Info.plist Arena_iPhone-Info.plist
+s303713181.949969
+e303713182.169518
+r1
+xProcessInfoPlistFile
+x/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Info.plist
+xArena_iPhone-Info.plist
+lSLF07#2@31"Process Arena_iPhone-Info.plist303713182#303713182#0(0"0(0#0#56"/Users/ianjohnstone/Arena_iPhone/Arena_iPhone-Info.plist28429445101453416#476"    cd /Users/ianjohnstone/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Arena_iPhone-Info.plist -genpkginfo /Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Info.plist Arena_iPhone-Info.plist
+s307737100.803281
+e307737100.882186
+r1
+xProcessInfoPlistFile
+x/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Info.plist
+xArena_iPhone-Info.plist
+lSLF07#2@31"Process Arena_iPhone-Info.plist307737100#307737100#0(0"0(0#0#82"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Arena_iPhone-Info.plist8615801184#554"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Arena_iPhone-Info.plist -genpkginfo /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app/Info.plist0#
+
+CProcessPCH /var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-avcpwrjfcmoqjifdlzguufistfhf/Arena_iPhone_Prefix.pch.gch Arena_iPhone_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s303713182.641639
+e303713184.308834
+r1
+xProcessPCH
+x/var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-avcpwrjfcmoqjifdlzguufistfhf/Arena_iPhone_Prefix.pch.gch
+xArena_iPhone_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile Arena_iPhone_Prefix.pch303713182#303713184#0(0"0(0#0#56"/Users/ianjohnstone/Arena_iPhone/Arena_iPhone_Prefix.pch4300885448#1786"    cd /Users/ianjohnstone/Arena_iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-generated-files.hmap -I/Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-own-target-headers.hmap -I/Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-all-target-headers.hmap -iquote /Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-project-headers.hmap -F/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator -I/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/include -I/Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources/i386 -I/Users/ianjohnstone/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources -c /Users/ianjohnstone/Arena_iPhone/Arena_iPhone_Prefix.pch -o /var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-avcpwrjfcmoqjifdlzguufistfhf/Arena_iPhone_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-dqhuydidawyagxaochmrsduiuuaj/Arena_iPhone_Prefix.pch.gch Arena_iPhone_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s307737102.189428
+e307737103.418702
+r1
+xProcessPCH
+x/var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-dqhuydidawyagxaochmrsduiuuaj/Arena_iPhone_Prefix.pch.gch
+xArena_iPhone_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile Arena_iPhone_Prefix.pch307737102#307737103#0(0"0(0#0#82"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Arena_iPhone_Prefix.pch8618288704#2088"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-generated-files.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-own-target-headers.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-all-target-headers.hmap -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-project-headers.hmap -F/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/include -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources/i386 -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources -c /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Arena_iPhone_Prefix.pch -o /var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-dqhuydidawyagxaochmrsduiuuaj/Arena_iPhone_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-dusydsvzynksipdmsckgpchrihpc/Arena_iPhone_Prefix.pch.gch Arena_iPhone_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s303799860.426956
+e303799861.423294
+r1
+xProcessPCH
+x/var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-dusydsvzynksipdmsckgpchrihpc/Arena_iPhone_Prefix.pch.gch
+xArena_iPhone_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile Arena_iPhone_Prefix.pch303799860#303799861#0(0"0(0#0#82"/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Arena_iPhone_Prefix.pch4300885448#2046"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-generated-files.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-own-target-headers.hmap -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-all-target-headers.hmap -iquote /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/Arena_iPhone-project-headers.hmap -F/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/include -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources/i386 -I/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Arena_iPhone.build/Debug-iphonesimulator/Arena_iPhone.build/DerivedSources -c /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/Arena_iPhone_Prefix.pch -o /var/folders/NY/NY+jRA1zHSSimb0cQRrvaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Arena_iPhone_Prefix-dusydsvzynksipdmsckgpchrihpc/Arena_iPhone_Prefix.pch.gch0#
+
+CTouch /Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app
+s303799273.152384
+e303799273.155392
+r1
+xTouch
+x/Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app
+lSLF07#2@83"Touch /Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app303799273#303799273#0(0"0(0#0#0"4300885448#271"    cd /Users/ianjohnstone/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/ianjohnstone/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+
+CTouch /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app
+s307737104.926330
+e307737104.933808
+r1
+xTouch
+x/Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app
+lSLF07#2@109"Touch /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app307737104#307737104#0(0"0(0#0#0"8617687808#323"    cd /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/ianjohnstone/Development/Java/Projects/Arena_iPhone/build/Debug-iphonesimulator/Arena_iPhone.app0#
+

@@ -1,0 +1,15 @@
+id
+type				
+imageview
+attackanimation
+modifier
+quantity
+;  (separator)
+
+
+
+type -	1	Stat Modifier (Potion, temp invincibility, etc.)	
+		2	Weapon (Sword, Axe, Hammer, etc.)
+		3	Shield
+
+

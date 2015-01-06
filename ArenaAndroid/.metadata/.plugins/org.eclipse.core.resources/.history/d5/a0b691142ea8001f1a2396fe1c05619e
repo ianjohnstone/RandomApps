@@ -1,0 +1,37 @@
+package arena;
+
+import java.util.ArrayList;
+
+import android.content.Context;
+import android.graphics.drawable.Drawable;
+import android.view.ViewGroup;
+import android.view.View;
+import android.widget.*;
+
+public class Arena extends ViewGroup{
+
+	View combatArea;
+	View optionsArea;
+	ImageView logo;
+	
+	ArrayList<View> touchables = new ArrayList<View>();
+	
+	public Arena(Context context) {
+		super(context);
+		// TODO Auto-generated constructor stub
+		optionsArea = new View(context);
+		combatArea = new View(context);
+		touchables.add(optionsArea);
+		touchables.add(combatArea);
+		
+		logo = new ImageView(context);
+		logo.setImageDrawable(new Drawable());
+	}
+
+	@Override
+	protected void onLayout(boolean changed, int l, int t, int r, int b) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

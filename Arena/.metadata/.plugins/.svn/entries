@@ -1,0 +1,97 @@
+10
+
+dir
+13
+svn://ijohnstone.servebeer.com/Subversion/Java/MazeMaker/.metadata/.plugins
+svn://ijohnstone.servebeer.com/Subversion
+
+
+
+2010-07-27T01:35:44.265625Z
+13
+ianlappy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+f50b097d-82da-1344-b3ec-85ebf69cc9b3
+
+org.eclipse.wst.validation
+dir
+
+org.eclipse.team.cvs.core
+dir
+
+org.eclipse.mylyn.bugzilla.core
+dir
+
+org.eclipse.ui.intro
+dir
+
+org.eclipse.wst.jsdt.core
+dir
+
+org.eclipse.jdt.core
+dir
+
+org.eclipse.mylyn.tasks.ui
+dir
+
+org.eclipse.wst.server.core
+dir
+
+org.eclipse.core.runtime
+dir
+
+org.eclipse.debug.core
+dir
+
+org.eclipse.pde.api.tools
+dir
+
+org.eclipse.jdt.debug.ui
+dir
+
+org.eclipse.jst.jsp.core
+dir
+
+org.eclipse.ltk.core.refactoring
+dir
+
+org.eclipse.jdt.launching
+dir
+
+org.eclipse.wst.jsdt.ui
+dir
+
+org.eclipse.epp.usagedata.recording
+dir
+
+org.eclipse.jdt.ui
+dir
+
+org.eclipse.ui.workbench
+dir
+
+org.eclipse.pde.core
+dir
+
+org.eclipse.jst.j2ee.ui
+dir
+
+org.eclipse.core.resources
+dir
+
+org.eclipse.debug.ui
+dir
+

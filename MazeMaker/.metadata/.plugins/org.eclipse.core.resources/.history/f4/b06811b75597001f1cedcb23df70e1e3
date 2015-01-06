@@ -1,0 +1,30 @@
+import java.awt.ComponentOrientation;
+import java.awt.Container;
+
+import javax.swing.*;
+
+public class MazeMaker {
+	
+	private JFrame mainScreen;
+	private JLabel label1;
+	
+	public MazeMaker()
+	{
+			mainScreen = new JFrame();
+			label1 = new JLabel();
+			mainScreen.setSize(600, 400);
+			mainScreen.setTitle("MazeMaker!");
+			label1.setText("Hello, world");
+			
+			JLabel label2 = new JLabel();
+			
+			label2.setText("Testing layouts");
+			
+			
+
+			mainScreen.setComponentOrientation(ComponentOrientation.LEFT_TO_RIGHT);
+			mainScreen.add(label1);
+			
+			mainScreen.setVisible(true);
+	}
+}

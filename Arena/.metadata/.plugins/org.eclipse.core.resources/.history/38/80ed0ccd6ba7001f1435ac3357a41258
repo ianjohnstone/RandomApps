@@ -1,0 +1,45 @@
+package arena;
+
+import java.util.Vector;
+
+import javax.swing.JLabel;
+
+public class AttackAnimation implements Animation {
+	
+	Vector<JLabel> images = new Vector<JLabel>();
+	
+	int delayTime = 100;
+	
+	public AttackAnimation(int delayTime)
+	{
+		init();
+	}
+	
+	public void init()
+	{
+	
+	}
+
+	@Override
+	public int getImageCount() {
+		return images.size();
+	}
+
+	@Override
+	public int getDelayTime() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void setImage(int image) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void clear() {
+		// TODO Auto-generated method stub
+		
+	}
+}

@@ -1,0 +1,11 @@
+package arena;
+
+public class MovementQueue extends Thread{
+
+	MovementQueue theInstance;
+	Vector<Character> queue = new Vector<Character>();
+	public MovementQueue()
+	{
+		
+	}
+}

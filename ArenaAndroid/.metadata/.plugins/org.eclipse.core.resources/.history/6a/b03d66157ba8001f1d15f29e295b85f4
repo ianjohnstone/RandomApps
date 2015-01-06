@@ -1,0 +1,44 @@
+package arena;
+
+import java.util.ArrayList;
+import com.arena.*;
+import android.R;
+import android.content.Context;
+import android.graphics.drawable.Drawable;
+import android.net.Uri;
+import android.view.ViewGroup;
+import android.view.View;
+import android.widget.*;
+
+public class Arena extends ViewGroup{
+
+	View combatArea;
+	ViewGroup optionsArea;
+	ImageView logo;
+	
+	ArrayList<View> touchables = new ArrayList<View>();
+	
+	public Arena(Context context) {
+		super(context);
+		// TODO Auto-generated constructor stub
+		optionsArea = new LinearLayout(context);
+		combatArea = new View(context);
+		touchables.add(optionsArea);
+		touchables.add(combatArea);
+		
+		Uri.Builder builder = new Uri.Builder();
+		builder.appendPath("arena/resources/MazeMaker_logo.png");
+		logo = new ImageView(context);
+		logo.setImageURI(builder.build());
+		touchables.add(logo);
+		this.addTouchables(touchables);
+		this.addView(optionsArea);
+		this.addView(combatArea);
+	}
+	@Override
+	protected void onLayout(boolean changed, int l, int t, int r, int b) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

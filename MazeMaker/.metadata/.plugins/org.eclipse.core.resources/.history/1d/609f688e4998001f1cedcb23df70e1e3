@@ -1,0 +1,44 @@
+import java.awt.ComponentOrientation;
+import java.awt.Container;
+import java.awt.Panel;
+import java.awt.Rectangle;
+
+import javax.swing.*;
+
+public class MazeMaker {
+	
+	private JFrame mainScreen;
+	private JLabel label1;
+	
+	public MazeMaker()
+	{
+			mainScreen = new JFrame();
+			label1 = new JLabel();
+			
+			Box verticalBox1 = new Box(BoxLayout.Y_AXIS);
+			Box verticalBox2 = new Box(BoxLayout.Y_AXIS);
+			Box horizontalBox = new Box(BoxLayout.X_AXIS);
+			
+			mainScreen.setSize(600, 400);
+			mainScreen.setTitle("MazeMaker!");
+			label1.setText("Hello, world");
+			JLabel label2 = new JLabel();
+			
+			label2.setText("Testing layouts");
+
+			mainScreen.setComponentOrientation(ComponentOrientation.LEFT_TO_RIGHT);
+			mainScreen.add(horizontalBox);
+			Rectangle bounds1 = new Rectangle(0, 0, mainScreen.getBounds().width * 7 / 10, mainScreen.getBounds().height);
+			Rectangle bounds2 = new Rectangle(0, 0, mainScreen.getBounds().width * 3 / 10, mainScreen.getBounds().height);
+			verticalBox1.setBounds(bounds1);
+			verticalBox2.setBounds(bounds2);
+			horizontalBox.add(verticalBox1);
+			horizontalBox.add(verticalBox2);
+			
+			verticalBox1.add(label1);
+			verticalBox2.add(label2);
+			
+			
+			mainScreen.setVisible(true);
+	}
+}

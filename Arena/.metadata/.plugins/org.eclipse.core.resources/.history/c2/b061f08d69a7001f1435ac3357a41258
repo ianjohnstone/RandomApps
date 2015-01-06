@@ -1,0 +1,6 @@
+package arena;
+
+public interface Animation {
+	public int getImageCount();
+	public int getDelayTime();
+}

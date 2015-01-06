@@ -1,0 +1,5 @@
+package com.arena;
+
+public class Arena extends Activity {
+
+}

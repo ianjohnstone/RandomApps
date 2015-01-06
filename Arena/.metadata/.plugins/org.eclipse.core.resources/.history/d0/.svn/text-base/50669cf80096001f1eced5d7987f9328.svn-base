@@ -1,0 +1,19 @@
+import javax.swing.*;
+
+public class MazeMaker {
+	
+	private JFrame mainScreen;
+	private JLabel label1;
+	
+	public MazeMaker()
+	{
+			mainScreen = new JFrame();
+			label1 = new JLabel();
+			label1.setText("Hello, world");
+			
+			mainScreen.add(label1);
+			
+			mainScreen.setVisible(true);
+			
+	}
+}

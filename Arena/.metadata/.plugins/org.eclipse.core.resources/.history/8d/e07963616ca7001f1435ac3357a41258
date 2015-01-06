@@ -1,0 +1,57 @@
+package arena;
+
+import java.io.File;
+import java.io.FileDescriptor;
+import java.util.Vector;
+
+import javax.swing.ImageIcon;
+import javax.swing.JLabel;
+
+public class AttackAnimation implements Animation {
+	
+	Vector<JLabel> images = new Vector<JLabel>();
+	
+	int delayTime = 10;
+	
+	JLabel activeImage;
+	
+	public AttackAnimation()
+	{
+		init();
+	}
+	
+	public void init()
+	{
+		File resourceFolder = new File("/resources/Animations");
+		String[] animationNames = resourceFolder.list();
+		for (int i = 0; i < animationNames.length; i++)
+		{
+			JLabel animation = new JLabel();
+			ImageIcon icon = Arena.createImageIcon(animationNames[i]);
+			animation.setIcon(icon);
+			animation.setBounds(0,0,16,16);
+			images.add(animation);
+		}
+	}
+
+	@Override
+	public int getImageCount() {
+		return images.size();
+	}
+
+	@Override
+	public int getDelayTime() {
+		return this.delayTime;
+	}
+
+	@Override
+	public void setImage(int image) {
+		activeImage = images.elementAt(image);
+	}
+
+	@Override
+	public void clear() {
+		activeImage = null;
+		
+	}
+}

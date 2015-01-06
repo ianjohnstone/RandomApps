@@ -1,0 +1,27 @@
+import javax.swing.*;
+
+public class PlayerCharacter extends JLabel{
+
+	private int direction = 0;
+	private boolean right = true;
+	
+	private Icon upOne;
+	private Icon upTwo;
+	private Icon rightOne;
+	private Icon rightTwo;
+	private Icon leftOne;
+	private Icon leftTwo;
+	private Icon downOne;
+	private Icon downTwo;
+	
+	public PlayerCharacter()
+	{
+		buildStepIcons("resources/Character/");
+	}
+	
+	private void buildStepIcons(String iconLocation)
+	{
+		
+	}
+	
+}

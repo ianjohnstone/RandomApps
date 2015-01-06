@@ -1,0 +1,3 @@
+Java GUI Class Notes:
+
+Panels only lay things out horizontally. Boxes get to chose their layout axis via class BoxLayout.

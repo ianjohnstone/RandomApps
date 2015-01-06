@@ -1,0 +1,62 @@
+import java.awt.ComponentOrientation;
+import java.awt.Container;
+import java.awt.Dimension;
+import java.awt.Panel;
+import java.awt.Rectangle;
+
+import javax.swing.*;
+import javax.swing.border.BevelBorder;
+
+public class MazeMaker {
+	
+	private JFrame mainScreen;
+	private JLabel label1;
+	
+	public MazeMaker()
+	{
+			mainScreen = new JFrame();
+			label1 = new JLabel();
+			
+			Box verticalBox1 = new Box(BoxLayout.Y_AXIS);
+			Box verticalBox2 = new Box(BoxLayout.Y_AXIS);
+			Box horizontalBox = new Box(BoxLayout.X_AXIS);
+			
+			mainScreen.setSize(600, 400);
+			mainScreen.setTitle("MazeMaker!");
+			
+			JPanel mapField = new JPanel();
+			JPanel infoField = new JPanel();
+			JPanel logoField = new JPanel();
+			
+			label1.setText("Hello, world");
+			JLabel label2 = new JLabel();
+			
+			label2.setText("Testing layouts");
+
+			mainScreen.setComponentOrientation(ComponentOrientation.LEFT_TO_RIGHT);
+			mainScreen.add(horizontalBox);
+			Dimension size1 = new Dimension(mainScreen.getSize().width * 7 / 10, mainScreen.getBounds().height);
+			Dimension size2 = new Dimension(mainScreen.getSize().width * 3 / 10, mainScreen.getBounds().height);
+		
+			verticalBox1.setBorder(BorderFactory.createBevelBorder(BevelBorder.RAISED));
+			verticalBox1.setSize(size1);
+			mapField.setSize(new Dimension(size1.width - 2, size1.height -2));
+			mapField.setBorder(BorderFactory.createBevelBorder(BevelBorder.LOWERED));
+			
+			verticalBox2.setBorder(BorderFactory.createBevelBorder(BevelBorder.RAISED));
+			verticalBox2.setSize(size2);
+			infoField.setSize(new Dimension(size2.width - 4, (size2.height * 7 / 10) - 4));
+			logoField.setSize(new Dimension(size2.width - 4, (size2.height * 3 / 10) - 4));
+
+			
+			horizontalBox.add(verticalBox1);
+			horizontalBox.add(verticalBox2);
+			
+			verticalBox1.add(mapField);
+			verticalBox2.add(infoField);
+			verticalBox2.add(logoField);
+			
+			
+			mainScreen.setVisible(true);
+	}
+}

@@ -1,0 +1,10 @@
+package arena;
+
+public class MovementQueue extends Thread{
+
+	
+	public MovementQueue()
+	{
+		
+	}
+}

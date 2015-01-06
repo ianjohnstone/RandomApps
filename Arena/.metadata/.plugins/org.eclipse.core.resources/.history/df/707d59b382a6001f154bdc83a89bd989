@@ -1,0 +1,11 @@
+package arena;
+
+public interface Character {
+
+	public void moved(int x, int y);
+	public int getDistanceLeft();
+	public int getDirection();
+	public void setDistanceToTravel(int distance);
+	public void setDirection(int direction);
+	
+}

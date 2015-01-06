@@ -1,0 +1,17 @@
+package arena;
+
+public class AnimationThread extends Thread{
+
+	AnimationThread theInstance;
+	public AnimationThread()
+	{
+		
+	}
+	
+	public static AnimationThread getTheInstance()
+	{
+		if (theInstance == null)
+			theInstance = new AnimationThread();
+		
+	}
+}

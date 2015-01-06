@@ -1,0 +1,69 @@
+package arena;
+
+import java.util.Vector;
+
+public class MovementQueue extends Thread{
+
+	static MovementQueue theInstance;
+	Vector<Character> queue = new Vector<Character>();
+	
+	final public static int DOWN = 0;
+	final public static int UP = 1;
+	final public static int RIGHT = 2;
+	final public static int LEFT = 3;
+	
+	public MovementQueue()
+	{
+		
+	}
+	
+	public static MovementQueue getTheQueue()
+	{
+		if (theInstance == null)
+			theInstance = new MovementQueue();
+		
+		return theInstance;
+	}
+	
+	public void run()
+	{
+		while (!queue.isEmpty())
+		{
+			Character top = queue.firstElement();
+			switch(top.getDirection())
+			{
+			case MovementQueue.DOWN:
+			{
+				top.moved(0, 1);
+				break;
+			}
+			case MovementQueue.UP:
+			{
+				top.moved(0, -1);
+				break;
+			}
+			case MovementQueue.LEFT:
+			{
+				top.moved(-1, 0);
+				break;
+			}
+			case MovementQueue.RIGHT:
+			{
+				top.moved(1, 0);
+				break;
+			}
+			}
+			top.setDistanceToTravel(top.getDistanceLeft() - 1);
+			queue.remove(top);
+			if (top.getDistanceLeft() > 0)
+				queue.add(top);
+			Thread.sleep(1000);
+		}
+	}
+	
+	public void add(Character character)
+	{
+		if (!queue.contains(character))
+			queue.add(character);	
+	}
+}

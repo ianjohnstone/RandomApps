@@ -1,0 +1,236 @@
+import java.awt.Dimension;
+import java.awt.Point;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import javax.swing.*;
+
+public class PlayerCharacter extends JLabel{
+
+	public int direction;
+	private boolean left = true;
+	
+	Point position = new Point(0,0);
+	
+	private Icon upOne;
+	private Icon upTwo;
+	private Icon rightOne;
+	private Icon rightTwo;
+	private Icon leftOne;
+	private Icon leftTwo;
+	private Icon downOne;
+	private Icon downTwo;
+	
+	public int rightLimit;
+	public int downLimit;
+	
+	private Walker stepHandler;
+	
+	private Mover moveHandler;
+	
+	public PlayerCharacter(Dimension limits)
+	{
+		upOne = buildStepIcons("resources/Character/Up1.png");
+		upTwo = buildStepIcons("resources/Character/Up2.png");
+		downOne = buildStepIcons("resources/Character/Down1.png");
+		downTwo = buildStepIcons("resources/Character/Down2.png");
+		leftOne = buildStepIcons("resources/Character/Left1.png");
+		leftTwo = buildStepIcons("resources/Character/Left2.png");
+		rightOne = buildStepIcons("resources/Character/Right1.png");
+		rightTwo = buildStepIcons("resources/Character/Right2.png");
+		
+		this.setIcon(downOne);
+		
+		this.direction = 0;
+		this.rightLimit = limits.width;
+		this.downLimit = limits.height;
+		stepHandler = new Walker(this);
+		stepHandler.start();
+	}
+	
+	private Icon buildStepIcons(String path)
+	{
+        java.net.URL imgURL = MazeMaker.class.getResource(path);
+        if (imgURL != null) {
+            return new ImageIcon(imgURL);
+        } else {
+            System.err.println("Couldn't find file: " + path);
+            return null;
+        }
+	}
+	
+	public void moved(int distance)
+	{
+		if (moveHandler == null)
+		{
+			moveHandler = new Mover(this);
+		}
+		moveHandler.move(direction, distance);
+	}
+	
+	public void stepped(boolean left)
+	{
+		this.setIcon(null);
+		switch(direction)
+		{
+			case 0:
+			{
+				if (left)
+				{
+					this.setIcon(downOne);
+				} 
+				else
+				{
+					this.setIcon(downTwo);
+				}
+				break;
+			}
+			case 1:
+			{
+				if (left)
+				{
+					this.setIcon(upOne);
+				} 
+				else
+				{
+					this.setIcon(upTwo);
+				}
+				break;
+			}
+			case 2:
+			{
+				if (left)
+				{
+					this.setIcon(leftOne);
+				} 
+				else
+				{
+					this.setIcon(leftTwo);
+				}
+				break;
+			}
+			case 3:
+			{
+				if (left)
+				{
+					this.setIcon(rightOne);
+				} 
+				else
+				{
+					this.setIcon(rightTwo);
+				}
+				break;
+			}
+		}
+		this.invalidate();
+	}
+	
+	class Walker extends Thread
+	{
+		int direction = 0;
+		boolean left = true;
+		PlayerCharacter walkee;
+		
+		public Walker(PlayerCharacter walker)
+		{
+			this.walkee = walker;
+		}
+		
+		public void run()
+		{
+			try {
+				while (true)
+				{
+					walkee.stepped(left);
+					left = !left;
+				
+					Thread.sleep(200);
+				}
+			}
+			catch (InterruptedException ie)
+			{
+			}
+			
+		}
+	}
+	class Mover extends Thread
+	{
+		int direction = 0;
+		int distance = 0;
+		PlayerCharacter movee;
+		
+		public Mover(PlayerCharacter walker)
+		{
+			this.movee = walker;
+		}
+		
+		public void move(int direction, int distance)
+		{
+			this.direction = direction;
+			this.distance = distance;
+			this.run();
+		}
+		
+		public void run()
+		{
+			try {
+				while (distance > 0)
+				{
+					switch(direction)
+					{
+						case 0:
+						{
+							if (pillars.contains(new Point(movee.position.x, movee.position.y + distance)))
+							{
+								distance = 0;
+								break;
+							}
+							if (movee.position.y >= movee.downLimit)
+								distance = 0;
+							else
+								movee.position.y++;
+							break;
+						}
+						case 1:
+						{
+							if (movee.position.y <= 0)
+								distance = 0;
+							else
+								movee.position.y--;
+							break;
+						}
+						case 2:
+						{
+							if (movee.position.x <= 0)
+								distance = 0;
+							else
+								movee.position.x--;
+							break;
+						}
+						case 3:
+						{
+							if (movee.position.x >= movee.rightLimit)
+								distance = 0;
+							else
+								movee.position.x++;
+							break;
+						}
+					}
+					distance--;
+					movee.setLocation(position);
+					movee.invalidate();
+				}
+				Thread.sleep(200);
+			}
+			catch (InterruptedException ie)
+			{
+			}
+		}
+		
+	}
+
+}

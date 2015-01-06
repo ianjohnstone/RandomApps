@@ -1,0 +1,9 @@
+package arena;
+
+import javax.swing.JLabel;
+
+public interface Animation {
+	public int getImageCount();
+	public int getDelayTime();
+	public void setImage(int image);
+}

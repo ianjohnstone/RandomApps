@@ -1,0 +1,7 @@
+package arena;
+
+public interface Animation {
+	public int getImageCount();
+	public int getDelayTime();
+	public JLabel getImage(int image);
+}

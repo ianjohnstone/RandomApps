@@ -1,0 +1,41 @@
+package arena;
+
+import java.util.Vector;
+
+public class MovementQueue extends Thread{
+
+	static MovementQueue theInstance;
+	Vector<Character> queue = new Vector<Character>();
+	
+	final public static int DOWN = 0;
+	final public static int UP = 1;
+	final public static int RIGHT = 2;
+	final public static int LEFT = 3;
+	
+	public MovementQueue()
+	{
+		
+	}
+	
+	public static MovementQueue getTheQueue()
+	{
+		if (theInstance == null)
+			theInstance = new MovementQueue();
+		
+		return theInstance;
+	}
+	
+	public void run()
+	{
+		while (!queue.isEmpty())
+		{
+			
+		}
+	}
+	
+	public void add(Character character)
+	{
+		if (!queue.contains(character))
+			queue.add(character);	
+	}
+}
